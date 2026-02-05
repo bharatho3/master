@@ -2,6 +2,7 @@
  * C program to accept numbers as an input from user
  * and to sort them in ascending order.
  */
+#include "functions.h"
 #include <stdio.h>
 
 void sort_numbers_ascending(int number[], int count)

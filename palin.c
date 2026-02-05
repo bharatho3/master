@@ -2,6 +2,7 @@
  * C program to read a string and check if it's a palindrome, without
  * using library functions. Display the result.
  */
+#include "functions.h"
 #include <stdio.h>
 #include <string.h>
  
@@ -12,7 +13,7 @@ void pal ()
  
     fflush(stdin);
     printf("Enter a string \n\n\n\n");
-    gets(string);
+    fgets(string, sizeof(string), stdin);
     /*  keep going through each character of the string till its end */
     for (i = 0; string[i] != '\0'; i++)
     {

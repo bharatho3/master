@@ -1,5 +1,6 @@
+#include "functions.h"
 #include <stdio.h>
-int revv()
+void revv()
 {
   int n, r = 0;
 
