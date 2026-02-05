@@ -1,4 +1,7 @@
-*.o
+# binaries
 *.exe
 main
+
+# object files
+*.o
 
